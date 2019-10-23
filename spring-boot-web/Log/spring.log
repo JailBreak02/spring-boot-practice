@@ -1,0 +1,24 @@
+2019-10-15 16:17:08.877  INFO 8236 --- [main] c.e.s.SpringBootWebApplication           : Starting SpringBootWebApplication on user-PC with PID 8236 (started by Administrator in E:\IntelliJ IDEA Projects\spring-boot-learning)
+2019-10-15 16:17:08.898  INFO 8236 --- [main] c.e.s.SpringBootWebApplication           : No active profile set, falling back to default profiles: default
+2019-10-15 16:17:09.657  INFO 8236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 16:17:09.774  INFO 8236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102ms. Found 1 repository interfaces.
+2019-10-15 16:17:10.120  INFO 8236 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$49817678] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 16:17:10.371  INFO 8236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-15 16:17:10.392  INFO 8236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 16:17:10.392  INFO 8236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-10-15 16:17:10.525  INFO 8236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 16:17:10.525  INFO 8236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1570 ms
+2019-10-15 16:17:10.690  INFO 8236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-15 16:17:11.176  INFO 8236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-15 16:17:12.471  INFO 8236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 16:17:15.572  INFO 8236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 16:17:15.857  WARN 8236 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-15 16:17:17.855  INFO 8236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-15 16:17:17.863  INFO 8236 --- [main] c.e.s.SpringBootWebApplication           : Started SpringBootWebApplication in 9.626 seconds (JVM running for 10.278)
+2019-10-15 16:17:28.405  INFO 8236 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 16:17:28.406  INFO 8236 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 16:17:28.473  INFO 8236 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 66 ms
+2019-10-15 16:17:51.458  INFO 8236 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 16:17:51.459  INFO 8236 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 16:17:51.462  INFO 8236 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-15 16:17:51.468  INFO 8236 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
