@@ -1,0 +1,9 @@
+spring:
+  data:
+    elasticsearch:
+      cluster-name: docker-cluster
+      cluster-nodes: 10.228.141.14:9300
+logging:
+  file:
+    path: ./logs
+    name: elasticSearchDemo.Log
