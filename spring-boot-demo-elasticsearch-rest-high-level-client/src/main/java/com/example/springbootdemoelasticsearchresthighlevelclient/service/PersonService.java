@@ -43,7 +43,7 @@ public interface PersonService {
      * update documen source
      *
      * @param index elasticSearch index name
-     * @param list data source
+     * @param list  data source
      * @author BigBoss
      */
     void update(String index, List<Person> list);
@@ -64,5 +64,34 @@ public interface PersonService {
      * @author BigBoss
      */
     List<Person> searchList(String index);
+
+    /**
+     * condition doc records
+     *
+     * @param index elasticSearch index name
+     * @return person list
+     * @author BigBoss
+     */
+    List<Person> conditionQuery(String index);
+
+    /**
+     * sum doc records
+     *
+     * @param index elasticsearch index name
+     * @return sum aggregation result
+     * @@return person list
+     */
+    String sumAggregation(String index, String name);
+
+    /**
+     * bucket doc records
+     *
+     * @param index      elasticSearch index name
+     * @param terms_name terms name
+     * @param avg_name   terms name
+     * @return bucket result
+     * @author BigBoss
+     */
+    String bucketQuery(String index, String terms_name, String avg_name);
 
 }

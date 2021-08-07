@@ -44,4 +44,8 @@ public class Person implements Serializable {
      */
     private String remark;
 
+    /**
+     * 转会费
+     */
+    private Double fee;
 }

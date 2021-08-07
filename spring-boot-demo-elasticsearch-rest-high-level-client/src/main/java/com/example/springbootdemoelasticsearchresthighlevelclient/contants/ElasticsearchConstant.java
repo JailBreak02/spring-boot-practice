@@ -14,4 +14,19 @@ public interface ElasticsearchConstant {
      */
     String INDEX_NAME = "person";
 
+    /**
+     * 聚合求和名称
+     */
+    String SUM_NAME = "fee_sum";
+
+    /**
+     * 自定义分组桶名称
+     */
+    String TERMS_NAME = "country_terms";
+
+    /**
+     * 聚合平均值名称
+     */
+    String AVG_NAME = "fee_avg";
+
 }
