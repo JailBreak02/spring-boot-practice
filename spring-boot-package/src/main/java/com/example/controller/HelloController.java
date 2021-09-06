@@ -13,7 +13,7 @@ public class HelloController {
      */
     @RequestMapping("/hello")
     public String index() {
-        String message = "Big Boss + ME";
+        String message = "Big Boss + Ayanami  +++";
         return message;
     }
 }
