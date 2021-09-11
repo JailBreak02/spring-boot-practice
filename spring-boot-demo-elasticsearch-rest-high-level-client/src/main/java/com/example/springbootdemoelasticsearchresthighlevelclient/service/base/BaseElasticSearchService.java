@@ -181,6 +181,12 @@ public abstract class BaseElasticSearchService {
             e.printStackTrace();
         }
 
+        // 打印请求体
+        System.out.println("请求体: \r\n" +searchRequest.source().toString());
+
+        // 打印返回返回体
+        System.out.println("返回体: \r\n" + searchResponse.toString());
+
         return searchResponse;
     }
 
@@ -236,6 +242,12 @@ public abstract class BaseElasticSearchService {
             e.printStackTrace();
         }
 
+        // 打印请求体
+        System.out.println("请求体: \r\n" +searchRequest.source().toString());
+
+        // 打印返回返回体
+        System.out.println("返回体: \r\n" + response.toString());
+
         return response;
     }
 
@@ -268,6 +280,12 @@ public abstract class BaseElasticSearchService {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        // 打印请求体
+        System.out.println("请求体: \r\n" +searchRequest.source().toString());
+
+        // 打印返回返回体
+        System.out.println("返回体: \r\n" + searchResponse.toString());
 
         return searchResponse;
     }
@@ -306,6 +324,12 @@ public abstract class BaseElasticSearchService {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        // 打印请求体
+        System.out.println("请求体: \r\n" +searchRequest.source().toString());
+
+        // 打印返回返回体
+        System.out.println("返回体: \r\n" + searchResponse.toString());
 
         return searchResponse;
     }
